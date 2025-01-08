@@ -1,5 +1,6 @@
 -- load defaults i.e lua_lsp
 require("nvchad.configs.lspconfig").defaults()
+require'lspconfig'.rust_analyzer.setup{}
 
 local lspconfig = require "lspconfig"
 
