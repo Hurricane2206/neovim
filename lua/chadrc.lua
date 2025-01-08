@@ -6,8 +6,8 @@
 local M = {}
 
 M.base46 = {
-	theme = "doomchad",
-  transparency = true,
+	theme = "dark_horizon",
+  transparency = false,
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
