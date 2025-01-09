@@ -6,11 +6,10 @@ return {
   },
   {
     "williamboman/mason.nvim",
-  },
-  {
-    "neovim/nvim-lspconfig",
-    config = function()
-      require "configs.lspconfig"
-    end,
+    opts = {
+      ensure_installed = {
+        "clangd", "rust-analyzer"
+      },
+    },
   },
 }
