@@ -12,7 +12,4 @@ return {
       },
     },
   },
-  {
-    "frc4533-lincoln/wpilib.nvim"
-  },
 }
