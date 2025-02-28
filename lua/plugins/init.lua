@@ -12,4 +12,18 @@ return {
       },
     },
   },
+  {
+    "mfussenegger/nvim-dap",
+    dependencies = {
+      "rcarriga/nvim-dap-ui",
+      "theHamsta/nvim-dap-virtual-text",
+      opts = {},
+    },
+  },
+  {
+    "julianolf/nvim-dap-lldb",
+    opts = {
+      codelldb_path = "./lldb/codelldb-linux-x64.vsix",
+    },
+  }
 }
